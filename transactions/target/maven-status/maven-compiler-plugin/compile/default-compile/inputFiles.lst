@@ -1,1 +1,9 @@
+D:\Academic Documents\Java\JDBL\Projects\digital-transactions-service\transactions\src\main\java\com\makeprojects\digitaltransactionsservice\transactions\core\enums\TransactionStatus.java
+D:\Academic Documents\Java\JDBL\Projects\digital-transactions-service\transactions\src\main\java\com\makeprojects\digitaltransactionsservice\transactions\core\kafka\components\TransferEventProducer.java
+D:\Academic Documents\Java\JDBL\Projects\digital-transactions-service\transactions\src\main\java\com\makeprojects\digitaltransactionsservice\transactions\core\kafka\components\TransferResultConsumer.java
+D:\Academic Documents\Java\JDBL\Projects\digital-transactions-service\transactions\src\main\java\com\makeprojects\digitaltransactionsservice\transactions\core\service\definition\TransactionService.java
+D:\Academic Documents\Java\JDBL\Projects\digital-transactions-service\transactions\src\main\java\com\makeprojects\digitaltransactionsservice\transactions\core\service\implementation\TransactionServiceImpl.java
+D:\Academic Documents\Java\JDBL\Projects\digital-transactions-service\transactions\src\main\java\com\makeprojects\digitaltransactionsservice\transactions\database\model\Transaction.java
+D:\Academic Documents\Java\JDBL\Projects\digital-transactions-service\transactions\src\main\java\com\makeprojects\digitaltransactionsservice\transactions\database\repository\TransactionRepository.java
+D:\Academic Documents\Java\JDBL\Projects\digital-transactions-service\transactions\src\main\java\com\makeprojects\digitaltransactionsservice\transactions\dto\TransactionRequestDTO.java
 D:\Academic Documents\Java\JDBL\Projects\digital-transactions-service\transactions\src\main\java\com\makeprojects\digitaltransactionsservice\transactions\TransactionsApplication.java
