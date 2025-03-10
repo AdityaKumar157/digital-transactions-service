@@ -1,6 +1,6 @@
 package com.makeprojects.digitaltransactionsservice.transactions.core.kafka.components;
 
-import com.makeprojects.ewallet.shared.event.classes.TransferEvent;
+import com.makeprojects.ewallet.shared.kafka.event.classes.TransferEvent;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.core.KafkaTemplate;

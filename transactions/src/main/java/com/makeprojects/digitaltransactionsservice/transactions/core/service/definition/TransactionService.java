@@ -3,8 +3,7 @@ package com.makeprojects.digitaltransactionsservice.transactions.core.service.de
 import com.makeprojects.digitaltransactionsservice.transactions.database.model.Transaction;
 import com.makeprojects.digitaltransactionsservice.transactions.dto.TransactionRequestDTO;
 import com.makeprojects.ewallet.shared.core.definition.CRUDService;
-import com.makeprojects.ewallet.shared.event.classes.TransferResult;
-import org.apache.kafka.common.requests.TransactionResult;
+import com.makeprojects.ewallet.shared.kafka.event.classes.TransferResult;
 
 public interface TransactionService extends CRUDService<Transaction> {
 

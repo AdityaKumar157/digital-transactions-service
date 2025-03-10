@@ -6,8 +6,8 @@ import com.makeprojects.digitaltransactionsservice.transactions.core.service.def
 import com.makeprojects.digitaltransactionsservice.transactions.database.model.Transaction;
 import com.makeprojects.digitaltransactionsservice.transactions.database.repository.TransactionRepository;
 import com.makeprojects.digitaltransactionsservice.transactions.dto.TransactionRequestDTO;
-import com.makeprojects.ewallet.shared.event.classes.TransferEvent;
-import com.makeprojects.ewallet.shared.event.classes.TransferResult;
+import com.makeprojects.ewallet.shared.kafka.event.classes.TransferEvent;
+import com.makeprojects.ewallet.shared.kafka.event.classes.TransferResult;
 import com.makeprojects.ewallet.shared.exceptions.NotFoundException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -216,6 +216,7 @@ public class TransactionServiceImpl implements TransactionService {
 
             return createdTransaction;
         } catch (RuntimeException e) {
+            log.error(String.format("Exception thrown while initiating transaction. Exception: %s", e.getMessage()));
             throw new RuntimeException(e);
         }
     }
